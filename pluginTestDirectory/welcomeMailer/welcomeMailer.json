@@ -1,0 +1,55 @@
+{
+    "data": {
+        "metaData": {
+            "subject": "IO - Welcome Mailer Test"
+        },
+        "dataTemplate": {
+            "properties": [
+                {
+                    "key": "Email",
+                    "validation": {
+                        "valueRequired": true,
+                        "type": "email"
+                    }
+                },
+                {
+                    "key": "Name",
+                    "validation": {
+                        "valueRequired": true,
+                        "type": "string"
+                    }
+                },
+                {
+                    "key": "LastName",
+                    "validation": {
+                        "valueRequired": true,
+                        "type": "string"
+                    }
+                },
+                {
+                    "key": "LoginLink",
+                    "validation": {
+                        "valueRequired": true,
+                        "type": "string"
+                    }
+                },
+                {
+                    "key": "Username",
+                    "validation": {
+                        "valueRequired": true,
+                        "type": "string"
+                    }
+                }
+            ]
+        },
+        "rawData": [
+            {
+                "Email": "armandjordaan@live.co.za",
+                "Name": "Kevin",
+                "LastName": "The Melon",
+                "LoginLink": "https://theioplatform.azureedge.net",
+                "Username": "The_Origional_Salad_Cheff"
+            }
+        ]
+    }
+}

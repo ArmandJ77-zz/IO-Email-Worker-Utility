@@ -1,0 +1,22 @@
+<mjml>
+  <mj-body background-color="#02040f" font-size="13px">
+    <mj-section background-color="#02040f" padding-bottom="100px" padding-top="100px">
+      <mj-column vertical-align="top" width="100%">
+        <mj-text align="center" color="#ffffff" font-size="45px" font-weight="200" letter-spacing="10px" font-family="https://fonts.googleapis.com/css?family=Josefin+Sans:200,300,400,600,700&display=swap">IO</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f2f4f3" vertical-align="top" padding-bottom="0px" padding-top="0">
+      <mj-column vertical-align="top" width="100%">
+        <mj-text align="left" color="#02040f" font-size="45px" font-weight="bold" font-family="https://fonts.googleapis.com/css?family=Josefin+Sans:200,300,400,600,700&display=swap" padding-left="25px" padding-right="25px" padding-bottom="30px" padding-top="50px">Welcome aboard</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f2f4f3" padding-bottom="20px" padding-top="20px">
+      <mj-column vertical-align="middle" width="100%">
+        <mj-text align="left" color="#02040f" font-size="22px" font-family="https://fonts.googleapis.com/css?family=Josefin+Sans:200,300,400,600,700&display=swap" padding-left="25px" padding-right="25px"><span style="color:#02040f">Dear Kevin The Melon</span><br /><br /> Welcome to the IO platform.</mj-text>
+        <mj-text align="left" color="#02040f" font-size="15px" font-weight="400" font-family="https://fonts.googleapis.com/css?family=Josefin+Sans" padding-left="25px" padding-right="25px">We&apos;re really excited you&apos;ve decided to give us a try. In case you have any questions, feel free to reach out to us at contact@theioplatform.co.za. You can login to your account with your username The_Origional_Salad_Cheff</mj-text>
+        <mj-button align="center" font-size="18px" background-color="#ffffff" color="#FF021B" font-family="https://fonts.googleapis.com/css?family=Josefin+Sans:200,300,400,600,700&display=swap">LOGIN</mj-button>
+        <mj-text align="left" color="#02040f" font-size="15px" font-family="https://fonts.googleapis.com/css?family=Josefin+Sans:200,300,400,600,700&display=swap" padding-left="25px" padding-right="25px">Thanks, <br /> The IO Team</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

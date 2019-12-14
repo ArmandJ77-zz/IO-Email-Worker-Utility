@@ -1,0 +1,69 @@
+{
+	"name": "io-email-utility",
+	"displayName": "IO-Email-Utility",
+	"description": "Is a utility which uses the IO-Email-Core to watch, build and test html emails",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.40.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:ewu.build",
+		"onCommand:ewu.watch",
+		"onCommand:ewu.test"
+	],
+	"main": "./src/extension.js",
+	"contributes": {
+		"type": "object",
+		"title": "EWU",
+		"properties": {
+			"EWU.workingDirectory": {
+				"default": "",
+				"description": "directory name to be parsed",
+				"type": "string"
+			}
+		},
+		"commands": [
+			{
+				"command": "ewu.build",
+				"category": "EWU",
+				"title": "Build"
+			},
+			{
+				"command": "ewu.watch",
+				"category": "EWU",
+				"title": "Watching"
+			},
+			{
+				"command": "ewu.test",
+				"category": "EWU",
+				"title": "Testing"
+			}
+		]
+	},
+	"scripts": {
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.6.4",
+		"@babel/core": "^7.6.4",
+		"@babel/node": "^7.6.3",
+		"@babel/register": "^7.6.2",
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.7",
+		"@types/node": "^12.11.7",
+		"@types/vscode": "^1.40.0",
+		"eslint": "^6.6.0",
+		"glob": "^7.1.5",
+		"mocha": "^6.2.2",
+		"typescript": "^3.6.4",
+		"vscode-test": "^1.2.2",
+		"webpack": "^4.41.2",
+		"webpack-cli": "^3.3.10"
+	},
+	"dependencies": {
+		"io-email-worker-core": "^1.4.6"
+	}
+}
